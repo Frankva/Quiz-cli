@@ -92,3 +92,39 @@ def test_question_entiere():
         "différentes variations ou représentations d'un objet en utilisant "
         "le même code de construction.")
     assert flashcards[2].get_verso() == 'Builder'
+
+def test_maximum_de_flashcard():
+    # arrange
+    filename = './tests/json/test_maximum_de_flashcard.json'
+    # act
+    quizApp = Quiz()
+    quizApp.run(filename)
+    is_valid = quizApp.is_valid()
+    # assert
+    assert is_valid
+
+def test_minimum_de_flashcard():
+    # arrange
+    filename = './tests/json/test_minimum_de_flashcard.json'
+    # act
+    quizApp = Quiz()
+    quizApp.run(filename)
+    is_valid = quizApp.is_valid()
+    # assert
+    assert is_valid
+
+def test_trop_de_flashcard():
+    # arrange
+    filename = './tests/json/test_trop_de_flashcard.json'
+    # act
+    quizApp = Quiz()
+    try:
+        quizApp.run(filename)
+        is_valid = quizApp.is_valid()
+        assert is_valid
+    # assert
+    except Exception as e:
+        if str(e) == 'Erreur il y a trop de flashcard.':
+            assert True
+        else:
+            assert False

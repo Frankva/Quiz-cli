@@ -1,0 +1,150 @@
+[
+  {
+    "recto": "the process of testing software to see whether it works properly, done by the company that is writing the software (n phr)",
+    "verso": "alpha testing"
+  },
+  {
+    "recto": "to officially accept (a plan, proposal, etc.) (v)",
+    "verso": "approve"
+  },
+  {
+    "recto": "a process of testing software in which it is given to customers to use, so that any problems will be found (n phr)",
+    "verso": "beta testing"
+  },
+  {
+    "recto": "to find out (how much sth will cost, how long sth will take, etc.) by using numbers (v)",
+    "verso": "calculate"
+  },
+  {
+    "recto": "sth that tests strength, skill or ability, especially in a way that is interesting (n)",
+    "verso": "challenge"
+  },
+  {
+    "recto": "two or more different things that exist together or are used or put together (n)",
+    "verso": "combination"
+  },
+  {
+    "recto": "to write to or telephone (sb) (v)",
+    "verso": "contact"
+  },
+  {
+    "recto": "the information contained in a website, considered separately from the software that makes the website work (n)",
+    "verso": "content"
+  },
+  {
+    "recto": "to remove the bugs (mistakes) from (a computer program) (v)",
+    "verso": "debug"
+  },
+  {
+    "recto": "all the separate features and pieces of information about sth (n)",
+    "verso": "detail"
+  },
+  {
+    "recto": "full of energy and new ideas (adj)",
+    "verso": "dynamic"
+  },
+  {
+    "recto": "Frequently Asked Questions, especially on a website (n pl)",
+    "verso": "FAQs"
+  },
+  {
+    "recto": "advice, criticism, etc. about how successful or useful sth is (n)",
+    "verso": "feedback"
+  },
+  {
+    "recto": "a type of bar chart that illustrates when things are going to happen in a project (n)",
+    "verso": "Gantt chart"
+  },
+  {
+    "recto": "the first page of a website, which often contains links to other pages on that website (n)",
+    "verso": "home page"
+  },
+  {
+    "recto": "a statement telling sb what they must do or telling a computer or other machine what to do (n)",
+    "verso": "instruction"
+  },
+  {
+    "recto": "to ask (sb) questions during a formal meeting in order to find out whether they are suitable for a job, course of study, etc. (v)",
+    "verso": "interview"
+  },
+  {
+    "recto": "a row of letters or numbers that make up part of a set of instructions that tell a computer what to do (n phr)",
+    "verso": "line of code"
+  },
+  {
+    "recto": "information showing you which way you need to go when you are moving from one place to another, arranged in the form of a simple picture, set of figures, graph, etc., or a piece of paper with this information on it (n)",
+    "verso": "navigation chart"
+  },
+  {
+    "recto": "a computer language originally designed to produce web pages that are generated at the time of access by a user or that change as a result of what the user does (n)",
+    "verso": "PHP"
+  },
+  {
+    "recto": "a list of things that you can ask a computer to do, that can appear suddenly on the computer screen while you are using it (n phr)",
+    "verso": "pop-up menu"
+  },
+  {
+    "recto": "website information that is of very high quality and that you often need to pay to access (n phr)",
+    "verso": "premium content"
+  },
+  {
+    "recto": ".+ feelings, information or opinions are personal or secret and not for other people to know about (adj)",
+    "verso": "private"
+  },
+  {
+    "recto": "sb whose job is to write computer programs (n)",
+    "verso": "programmer"
+  },
+  {
+    "recto": "available for anyone to use (adj)",
+    "verso": "public"
+  },
+  {
+    "recto": "to buy (sth) (v)",
+    "verso": "purchase"
+  },
+  {
+    "recto": "a beta version of a piece of software that could become the final product, and is ready to release unless significant problems are found (n phr)",
+    "verso": "release candidate"
+  },
+  {
+    "recto": "a machine that can move and do some of the work of a person, and is usually controlled by a computer (n)",
+    "verso": "robot"
+  },
+  {
+    "recto": "a plan of what sb is going to do or sth that is going to happen, and when (n)",
+    "verso": "schedule"
+  },
+  {
+    "recto": "a position in the results produced by a search engine (a computer program that helps you find information on the Internet) (n phr)",
+    "verso": "search ranking"
+  },
+  {
+    "recto": "the process of improving the visibility of a website or a web page in the results produced by a search engine (a computer program that helps you find information on the Internet) (n)",
+    "verso": "SEO"
+  },
+  {
+    "recto": "a detailed instruction about how a car, building, piece of equipment, etc. should be made or what it should does (n)",
+    "verso": "specification"
+  },
+  {
+    "recto": "a mathematical quantity shown by a letter of the alphabet or sign (n)",
+    "verso": "value"
+  },
+  {
+    "recto": "a mathematical quantity that can represent several different amounts (n)",
+    "verso": "variable"
+  },
+  {
+    "recto": "having many different uses (adj)",
+    "verso": "versatile"
+  },
+  {
+    "recto": "able to be seen (adj)",
+    "verso": "viewable"
+  },
+  {
+    "recto": "SEO (stand for)",
+    "verso": "Search Engine Optimisation"
+  }
+]
