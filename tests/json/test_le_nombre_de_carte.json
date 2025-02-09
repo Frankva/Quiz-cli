@@ -1,0 +1,10 @@
+[
+    {
+        "recto": "Permet de créer de nouveaux objets à partir d'objets existants sans rendre le code dépendant de leur classe.",
+        "verso": "Prototype"
+    },
+    {
+        "recto": "Permet de garantir que l'instance d'une classe n'existe qu'en un seul exemplaire, tout en fournissant un point d'accès global à cette instance.",
+        "verso": "Singleton"
+    }
+]

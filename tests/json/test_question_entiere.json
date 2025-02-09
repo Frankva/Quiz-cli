@@ -1,0 +1,14 @@
+[
+    {
+        "recto": "Définit une interface pour la création d'objets dans une classe mère, mais délègue aux sous-classes le choix des types d'objets à créer.",
+        "verso": "Factory Method"
+    },
+    {
+        "recto": "Permet de créer des familles d'objets apparentés sans préciser leur classe concrète.",
+        "verso": "Abstract Factory"
+    },
+    {
+        "recto": "Permet de construire des objets complexes étape par étape. Ce patron permet de construire différentes variations ou représentations d'un objet en utilisant le même code de construction.",
+        "verso": "Builder"
+    }
+]
