@@ -1,6 +1,6 @@
 import json
 
-class quiz:
+class Quiz:
     def __init__(self):
         self.quiz_data: list = list()
 
@@ -11,10 +11,14 @@ class quiz:
 
     def __check_format(self):
         if not isinstance(self.quiz_data, list):
-            raise Exception('Erreur le json n’est pas formaté correctement.')
+            self.__raise_json_format_error()
         for question in self.quiz_data:
             if 'recto' not in question:
-                raise Exception('Erreur le json n’est pas formaté correctement.')
+                self.__raise_json_format_error()
             if 'verso' not in question:
-                raise Exception('Erreur le json n’est pas formaté correctement.')
+                self.__raise_json_format_error()
+
+    @staticmethod
+    def __raise_json_format_error():
+        raise Exception('Erreur le json n’est pas formaté correctement.')
 

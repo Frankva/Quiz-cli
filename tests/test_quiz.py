@@ -1,4 +1,4 @@
-from quiz.quiz import quiz
+from quiz.quiz import Quiz
 import pytest
 import json
 
@@ -6,7 +6,7 @@ def test_fichier_introuvable():
     # arrange
     filename = './tests/json/fichier_qui_n_existe_pas'
     # act
-    quizApp = quiz()
+    quizApp = Quiz()
     try:
         quizApp.run(filename)
     # assert
@@ -19,7 +19,7 @@ def test_pas_un_json():
     # arrange
     filename = './tests/json/test_pas_un_json.json'
     # act
-    quizApp = quiz()
+    quizApp = Quiz()
     try:
         quizApp.run(filename)
     # assert
@@ -28,11 +28,11 @@ def test_pas_un_json():
     else:
         assert False
 
-def test_pas_le_bon_format(capsys):
+def test_pas_le_bon_format():
     # arrange
     filename = './tests/json/test_pas_le_bon_format.json'
     # act
-    quizApp = quiz()
+    quizApp = Quiz()
     try:
         quizApp.run(filename)
     # assert
