@@ -1,10 +1,94 @@
 [
   {
-    "recto": "recto1",
-    "verso": "verso1"
+    "recto": "Définit une interface pour la création d'objets dans une classe mère, mais délègue aux sous-classes le choix des types d'objets à créer.",
+    "verso": "Fabrique"
   },
   {
-    "recto": "recto2",
-    "verso": "verso2"
+    "recto": "Permet de créer des familles d'objets apparentés sans préciser leur classe concrète.",
+    "verso": "Fabrique abstraite"
+  },
+  {
+    "recto": "Permet de construire des objets complexes étape par étape. Ce patron permet de construire différentes variations ou représentations d'un objet en utilisant le même code de construction.",
+    "verso": "Monteur"
+  },
+  {
+    "recto": "Permet de créer de nouveaux objets à partir d'objets existants sans rendre le code dépendant de leur classe.",
+    "verso": "Prototype"
+  },
+  {
+    "recto": "Permet de garantir que l'instance d'une classe n'existe qu'en un seul exemplaire, tout en fournissant un point d'accès global à cette instance.",
+    "verso": "Singleton"
+  },
+  {
+    "recto": "Permet de faire collaborer des objets ayant des interfaces normalement incompatibles.",
+    "verso": "Adaptateur"
+  },
+  {
+    "recto": "Permet de séparer une grosse classe ou un ensemble de classes connexes en deux hiérarchies — abstraction et implémentation — qui peuvent évoluer indépendamment l'une de l'autre.",
+    "verso": "Pont"
+  },
+  {
+    "recto": "Permet d'agencer les objets dans des arborescences afin de pouvoir traiter celles-ci comme des objets individuels.",
+    "verso": "Composite"
+  },
+  {
+    "recto": "Permet d'affecter dynamiquement de nouveaux comportements à des objets en les plaçant dans des emballeurs qui implémentent ces comportements.",
+    "verso": "Décorateur"
+  },
+  {
+    "recto": "Procure une interface qui offre un accès simplifié à une librairie, un framework ou à n'importe quel ensemble complexe de classes.",
+    "verso": "Façade"
+  },
+  {
+    "recto": "Permet de stocker plus d'objets dans la RAM en partageant les états similaires entre de multiples objets, plutôt que de stocker les données dans chaque objet.",
+    "verso": "Poids mouche"
+  },
+  {
+    "recto": "Permet de fournir un substitut d'un objet. ce patron donne le contrôle sur l'objet original, vous permettant d'effectuer des manipulations avant ou après que la demande ne lui parvienne.",
+    "verso": "Procuration"
+  },
+  {
+    "recto": "Permet de faire circuler une demande dans une chaîne de handlers. Lorsqu'un handler reçoit une demande, il décide de la traiter ou de l'envoyer au handler suivant de la chaîne.",
+    "verso": "Chaîne de responsabilité"
+  },
+  {
+    "recto": "Prend une action à effectuer et la transforme en un objet autonome qui contient tous les détails de cette action. Cette transformation permet de paramétrer des méthodes avec différentes actions, planifier leur exécution, les mettre dans une file d'attente ou d'annuler des opérations effectuées.",
+    "verso": "Commande"
+  },
+  {
+    "recto": "Permet de parcourir les éléments d'une collection sans révéler sa représentation interne (liste, pile, arbre, etc.).",
+    "verso": "Itérateur"
+  },
+  {
+    "recto": "Permet de diminuer les dépendances chaotiques entre les objets. Ce patron restreint les communications directes entre les objets et les force à collaborer uniquement via un objet.",
+    "verso": "Médiateur"
+  },
+  {
+    "recto": "Permet de sauvegarder et de rétablir l'état précédent d'un objet sans révéler les détails de son implémentation.",
+    "verso": "Mémento"
+  },
+  {
+    "recto": "Permet de mettre en place un mécanisme de souscription pour envoyer des notifications à plusieurs objets, au sujet d'événements concernant les objets qu'ils observent.",
+    "verso": "Observateur"
+  },
+  {
+    "recto": "Modifie le comportement d'un objet lorsque son état interne change. L'objet donne l'impression qu'il change de classe.",
+    "verso": "État"
+  },
+  {
+    "recto": "Permet de définir une famille d'algorithmes, de les mettre dans des classes séparées et de rendre leurs objets interchangeables.",
+    "verso": "Stratégie"
+  },
+  {
+    "recto": "Permet de mettre le squelette d'un algorithme dans la classe mère, mais laisse les sous-classes redéfinir certaines étapes de l'algorithme sans changer sa structure.",
+    "verso": "Patron de méthode"
+  },
+  {
+    "recto": "Permet de séparer les algorithmes et les objets sur lesquels ils opèrent.",
+    "verso": "Visiteur"
+  },
+  {
+    "recto": "Met en œuvre un langage spécialisé.",
+    "verso": "Interpréteur"
   }
 ]

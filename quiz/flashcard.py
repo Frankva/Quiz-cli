@@ -14,3 +14,6 @@ class Flashcard:
 
     def get_verso(self) -> str:
         return self.__verso
+
+    def __str__(self) -> str:
+        return (f'[({self.__recto})\n({self.__verso})]')

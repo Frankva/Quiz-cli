@@ -45,4 +45,10 @@ class Quiz:
         raise Exception('Erreur il y a trop de flashcard.')
 
     def is_valid(self) -> bool:
-       return 1 <= self.get_count_flashcards() <= 30
+        return 1 <= self.get_count_flashcards() <= 30
+
+    def __str__(self) -> str:
+        text = ''
+        for flashcard in self.__flashcards:
+            text += str(flashcard) + '\n'
+        return text
