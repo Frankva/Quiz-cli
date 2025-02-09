@@ -29,16 +29,20 @@ class Quiz:
             if 'verso' not in question:
                 self.__raise_json_format_error()
 
-    def __check_is_valid(self):
+    def __check_is_valid(self) -> None:
         if not self.is_valid():
-            raise Exception('Erreur il y a trop de flashcard.')
+            self.__raise_too_much_flashcard()
 
     def get_count_flashcards(self) -> int:
         return len(self.__flashcards)
 
     @staticmethod
-    def __raise_json_format_error():
+    def __raise_json_format_error() -> None:
         raise Exception('Erreur le json n’est pas formaté correctement.')
 
-    def is_valid(self):
+    @staticmethod
+    def __raise_too_much_flashcard() -> None:
+        raise Exception('Erreur il y a trop de flashcard.')
+
+    def is_valid(self) -> bool:
        return 1 <= self.get_count_flashcards() <= 30

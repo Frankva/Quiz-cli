@@ -2,7 +2,7 @@ from quiz.quiz import Quiz
 import pytest
 import json
 
-def test_fichier_introuvable():
+def test_fichier_introuvable() -> None:
     # arrange
     filename = './tests/json/fichier_qui_n_existe_pas'
     # act
@@ -15,7 +15,7 @@ def test_fichier_introuvable():
     else:
         assert False
 
-def test_pas_un_json():
+def test_pas_un_json() -> None:
     # arrange
     filename = './tests/json/test_pas_un_json.json'
     # act
@@ -28,7 +28,7 @@ def test_pas_un_json():
     else:
         assert False
 
-def test_pas_le_bon_format():
+def test_pas_le_bon_format() -> None:
     # arrange
     filename = './tests/json/test_pas_le_bon_format.json'
     # act
@@ -42,7 +42,7 @@ def test_pas_le_bon_format():
         else:
             assert False
 
-def test_le_nombre_de_carte():
+def test_le_nombre_de_carte() -> None:
     # arrange
     filename = './tests/json/test_le_nombre_de_carte.json'
     # act
@@ -52,7 +52,7 @@ def test_le_nombre_de_carte():
     # assert
     assert count == 2
 
-def test_question_correspond_reponse():
+def test_question_correspond_reponse() -> None:
     # arrange
     filename = './tests/json/test_question_correspond_reponse.json'
     # act
@@ -69,7 +69,7 @@ def test_question_correspond_reponse():
     assert flashcards[2].get_recto() == 'recto3'
     assert flashcards[2].get_verso() == 'verso3'
 
-def test_question_entiere():
+def test_question_entiere() -> None:
     # arrange
     filename = './tests/json/test_question_entiere.json'
     # act
@@ -93,7 +93,7 @@ def test_question_entiere():
         "le même code de construction.")
     assert flashcards[2].get_verso() == 'Builder'
 
-def test_maximum_de_flashcard():
+def test_maximum_de_flashcard() -> None:
     # arrange
     filename = './tests/json/test_maximum_de_flashcard.json'
     # act
@@ -103,7 +103,7 @@ def test_maximum_de_flashcard():
     # assert
     assert is_valid
 
-def test_minimum_de_flashcard():
+def test_minimum_de_flashcard() -> None:
     # arrange
     filename = './tests/json/test_minimum_de_flashcard.json'
     # act
@@ -113,7 +113,7 @@ def test_minimum_de_flashcard():
     # assert
     assert is_valid
 
-def test_trop_de_flashcard():
+def test_trop_de_flashcard() -> None:
     # arrange
     filename = './tests/json/test_trop_de_flashcard.json'
     # act
