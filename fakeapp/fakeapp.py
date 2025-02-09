@@ -1,2 +1,0 @@
-def fake():
-    return 'a'
