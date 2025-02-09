@@ -22,7 +22,7 @@ Enfin de pouvoir jouer au quiz.
 - Il faut avoir [Docker
   Desktop](https://www.docker.com/products/docker-desktop/) d’installé.
 - Faire `docker compose up` à la racine du projet
-- Pour l’instance, l’application affiche seulement toutes les questions et réponse
+- Pour l’instant, l’application affiche seulement toutes les questions et réponse
 # Architecture générale de l’application: technologies
 - Python
 	- Langage de programmation.
@@ -32,16 +32,15 @@ Enfin de pouvoir jouer au quiz.
 	- Dépôt distant Git
 	- Pipeline CI/CD
 # Comment accèder aux logs des tests
-- Se connecter sur https://github.com/login
+- Se connecter sur https://github.com/login avec n’importe quel compte.
 	- ![image](https://github.com/user-attachments/assets/31a895fd-b087-4c0b-87f3-daeb11c47202)
-- Aller sur https://github.com/Frankva/Quiz-cli
+- Aller sur https://github.com/Frankva/Quiz-cli.
 	- ![image](https://github.com/user-attachments/assets/88bf99b5-40ac-4b3c-9c45-e7d978e38636)
 - Cliquer sur Commits.
 	- ![image](https://github.com/user-attachments/assets/029210c7-8ef6-4fed-afec-d0a34fc8431a)
 - Cliquer sur une croix ou une coche à coté d’un commit avec « TDD » dans le titre.
 	- ![image](https://github.com/user-attachments/assets/9d1c6acc-1b88-4d18-96bd-1e2dbdd3ebd3)
-- Clique sur détails
+- Clique sur détails.
 	- ![image](https://github.com/user-attachments/assets/90597b83-ace4-4156-b335-2cebcf744d6b)
-- Liser
+- Liser.
 	- ![image](https://github.com/user-attachments/assets/fa21c889-9b72-4416-93e0-628817b89a1a)
-
