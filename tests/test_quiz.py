@@ -48,7 +48,7 @@ def test_le_nombre_de_carte():
     # act
     quizApp = Quiz()
     quizApp.run(filename)
-    count = quizApp.get_count_question()
+    count = quizApp.get_count_flashcards()
     # assert
     assert count == 2
 
@@ -77,11 +77,18 @@ def test_question_entiere():
     quizApp.run(filename)
     flashcards = quizApp.get_flashcards()
     # assert
-    assert flashcards[0].get_recto() == "Définit une interface pour la création d'objets dans une classe mère, mais délègue aux sous-classes le choix des types d'objets à créer."
+    assert flashcards[0].get_recto() == ("Définit une interface pour la "
+        "création d'objets dans une classe mère, mais délègue aux "
+        "sous-classes le choix des types d'objets à créer.")
+
     assert flashcards[0].get_verso() == 'Factory Method'
 
-    assert flashcards[1].get_recto() == "Permet de créer des familles d'objets apparentés sans préciser leur classe concrète."
+    assert flashcards[1].get_recto() == ("Permet de créer des familles "
+        "d'objets apparentés sans préciser leur classe concrète.")
     assert flashcards[1].get_verso() == 'Abstract Factory'
 
-    assert flashcards[2].get_recto() == "Permet de construire des objets complexes étape par étape. Ce patron permet de construire différentes variations ou représentations d'un objet en utilisant le même code de construction."
+    assert flashcards[2].get_recto() == ("Permet de construire des objets "
+        "complexes étape par étape. Ce patron permet de construire "
+        "différentes variations ou représentations d'un objet en utilisant "
+        "le même code de construction.")
     assert flashcards[2].get_verso() == 'Builder'
