@@ -41,7 +41,7 @@ Enfin de pouvoir jouer au quiz.
 	- ![image](https://github.com/user-attachments/assets/88bf99b5-40ac-4b3c-9c45-e7d978e38636)
 - Cliquer sur Commits.
 	- ![image](https://github.com/user-attachments/assets/029210c7-8ef6-4fed-afec-d0a34fc8431a)
-- Cliquer sur une croix ou une coche à coté d’un commit avec « TDD » dans le titre.
+- Cliquer sur une croix ou une coche à coté d’un commit avec « TDD » dans le titre.
 	- ![image](https://github.com/user-attachments/assets/9d1c6acc-1b88-4d18-96bd-1e2dbdd3ebd3)
 - Clique sur détails.
 	- ![image](https://github.com/user-attachments/assets/90597b83-ace4-4156-b335-2cebcf744d6b)

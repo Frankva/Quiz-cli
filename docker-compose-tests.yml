@@ -1,0 +1,4 @@
+services:
+  python-app:
+    build: .
+    command: python3 -m pytest -v
