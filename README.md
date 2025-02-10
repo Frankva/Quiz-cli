@@ -23,6 +23,7 @@ Enfin de pouvoir jouer au quiz.
   Desktop](https://www.docker.com/products/docker-desktop/) installé.
 - Faire `docker compose up` à la racine du projet
 - Pour l’instant, l’application affiche seulement toutes les questions et réponses
+- Pour lancer les tests `docker-compose -f docker-compose-tests.yml up`
 # Architecture générale de l’application: technologies
 - Python 3.12
 	- Langage de programmation.
