@@ -24,7 +24,7 @@ Enfin de pouvoir jouer au quiz.
 - Faire `docker compose up` à la racine du projet
 - Pour l’instant, l’application affiche seulement toutes les questions et réponse
 # Architecture générale de l’application: technologies
-- Python
+- Python 3.12
 	- Langage de programmation.
 - Pytest
 	- Framework de tests
