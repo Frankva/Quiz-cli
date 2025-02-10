@@ -3,26 +3,26 @@
 # Objectifs de l’app
 ## Spécification produit
 - Quiz de flashcard en ligne de commande interactif.
-- Les flashcard sont stocké dans un fichier JSON.
+- Les flashcards sont stockées dans un fichier JSON.
 - L’application ne permet pas de créer le JSON.
 - Au lancement du script, l’application lance directement le quiz.
 - le quiz lance une flashcard du fichier JSON choisi aléatoirement.
-- L’utilisateur doit tapé la réponse puis valider avec la touche entrer.
-- Le quiz s’arrête quand toute les questions ont reçu une bonne réponse.
-- Les questions qui ont reçu une mauvaise réponse sont toujours dans les possibilités des tirages aléatoire.
+- L’utilisateur doit taper la réponse, puis il valide avec la touche entrée.
+- Le quiz s’arrête quand toutes les questions ont reçu une bonne réponse.
+- Les questions qui ont reçu une mauvaise réponse sont toujours dans les possibilités des tirages aléatoires.
 ## User Story 1
-En tant qu’étudiant
-je veux que l’application lance un quiz dans la ligne de commande à partir de question présente dans un JSON.
-Enfin de pouvoir jouer au quiz.
+En tant qu’étudiant  
+je veux que l’application lance un quiz dans la ligne de commande à partir de questions présentes dans un JSON  
+Enfin de pouvoir jouer au quiz.  
 ### Critère d’acceptation
-- Le JSON est correctement convertie en objet python.
+- Le JSON est correctement converti en objet Python.
 - Le quiz se lance quand le JSON est valide.
-- Une erreur se lance quand il y a strictement plus de 30 flashcard dans un JSON.
+- Une erreur se lance quand il y a strictement plus de 30 flashcards dans un JSON.
 # Instructions d’installation & exécution (compatible machine Win11)
 - Il faut avoir [Docker
-  Desktop](https://www.docker.com/products/docker-desktop/) d’installé.
+  Desktop](https://www.docker.com/products/docker-desktop/) installé.
 - Faire `docker compose up` à la racine du projet
-- Pour l’instant, l’application affiche seulement toutes les questions et réponse
+- Pour l’instant, l’application affiche seulement toutes les questions et réponses
 # Architecture générale de l’application: technologies
 - Python 3.12
 	- Langage de programmation.
@@ -31,7 +31,7 @@ Enfin de pouvoir jouer au quiz.
 - Github
 	- Dépôt distant Git
 	- Pipeline CI/CD
-# Comment accèder aux logs des tests
+# Comment accéder aux logs des tests
 - Se connecter sur https://github.com/login avec n’importe quel compte.
 	- ![image](https://github.com/user-attachments/assets/31a895fd-b087-4c0b-87f3-daeb11c47202)
 - Aller sur https://github.com/Frankva/Quiz-cli.
